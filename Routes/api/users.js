@@ -47,6 +47,8 @@ router.post('/', [
 
         await user.save();
 
+        console.log('SAVED');
+
         const payload = {
             user: {
                 id: user.id

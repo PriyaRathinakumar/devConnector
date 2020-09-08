@@ -1,5 +1,5 @@
 {
-    "mongoURI": "mongodb://localhost:27017/test?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false",
+    "mongoURI": "mongodb://localhost:27017/socialApp?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false",
     "jwtSecret": "priya",
     "githubClientId": "964dd567b0a0f512b2a5",
     "githubSecret": "4b8a0008d0e5f018433462fb2e71f2c2cac7c2d9"
