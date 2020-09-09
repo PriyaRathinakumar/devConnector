@@ -61,8 +61,6 @@ router.post('/', [
                 res.json({token});
             });
 
-        // res.json({token}).send("User Registered");
-        //return jsonweb token
     } catch (err) {
         res.status(500).send('Server error');
     }
