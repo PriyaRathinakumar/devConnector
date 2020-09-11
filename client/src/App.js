@@ -16,7 +16,7 @@ if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
 
-const App = () => {
+const App = () => {  // Main JSX element the UI starts with 
   useEffect(() => {
     store.dispatch(loadUser());
   }, []);
@@ -24,7 +24,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <Router>
-        <Fragment>
+        <Fragment> 
           <NavBar />
           <Route exact path="/" component={Landing} />
           <section className="container">
